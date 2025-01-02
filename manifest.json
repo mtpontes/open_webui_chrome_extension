@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Open Web UI",
+  "version": "1.0",
+  "description": "Displays an AI chat using an Open Web UI client and an Ollama server.",
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_title": "Click to open panel"
+  },
+  "permissions": ["sidePanel", "tabs"],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
+      }
+    }
+  },
+  "icons": {
+    "16": "images/icone-16.png",
+    "48": "images/icone-48.png",
+    "128": "images/icone-128.png"
+  }
+}
