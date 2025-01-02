@@ -1,12 +1,12 @@
 # Open WebUI Chrome Extension
 
-Esta é uma extensão do Chrome que permite interagir com a interface Open WebUI diretamente do seu navegador Chrome usando o recurso de side panel. A interface do Open WebUI é acessível através da barra lateral do lado direito do navegador.
+Esta é uma extensão do Chrome que permite interagir com a interface [Open WebUI](https://github.com/open-webui/open-webui) diretamente do seu navegador Chrome usando o recurso de side panel. A interface do Open WebUI é acessível através da barra lateral do lado direito do navegador.
 
 ## Requisitos
 Essa extensão é destinada apenas para qualidade de vida do usuário, para usufruir dela é necessário ter:
-- Google Chrome
-- Servidor de interface Open WebUI deve estar disponível na porta 3000
-- Servidor Ollama devo estar disponível na porta 11434
+- [Google Chrome](https://www.google.com/intl/pt-BR/chrome/)
+- Servidor de interface [Open WebUI](https://github.com/open-webui/open-webui) deve estar disponível na porta 3000
+- Servidor [Ollama](https://ollama.com/)  devo estar disponível na porta 11434
 
 ## Instalação
 Para instalar a extensão no Chrome em modo de desenvolvedor, siga estes passos:
